@@ -107,7 +107,7 @@ namespace TaskManagement.Controllers
         public void PostTaskItem(TaskItem taskItem)
         {
             {
-                taskItem.TaskStatus = "INITIATED";
+                taskItem.TaskStatus = "STARTED";
 
                 var factory = new ConnectionFactory()
                 {
